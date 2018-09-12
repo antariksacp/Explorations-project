@@ -1,23 +1,18 @@
 body {
-                background-color: #f2f2f2;
-                font-family: arial, helvetica, sans-serif;
+    background-color: #f2f2f2;
+    font-family: arial, helvetica, sans-serif;
 }
-div{
-                margin: 300px 100px 100px 200px
+div {
+    margin: 300px 100px 0px 200px
+}
 button {
-                font: bold 25px sans-serif;
-                font: bold 30px sans-serif;
-                text-decoration: none;
-                background-color: #EEEEEE;
-                background-color: white;
-                color: #7c7c7c;
-                padding: 10px 10px 10px 10px;
-                border: 1px solid grey
-                border-style: outset;
-                border-color: #56d08c;
-                color: darkslategrey;
-                border: none;
-                border-bottom: 4px solid #56d08c;
+    font: bold 30px sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: darkslategrey;
+    border: none;
+    border-bottom: 4px solid #56d08c;
+}
 textarea {
     padding: 12px 0px 0px 20px;
     box-sizing: border-box;
@@ -27,6 +22,7 @@ textarea {
     font-size: 14px;
     resize: none;
     
+}
 input[type=text] {
     padding: 5px 0px 5px 5px;
     box-sizing: border-box;
