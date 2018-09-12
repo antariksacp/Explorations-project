@@ -15,4 +15,7 @@ button {
                 border: 1px solid grey
                 border-style: outset;
                 border-color: #56d08c;
+                color: darkslategrey;
+                border: none;
+                border-bottom: 4px solid #56d08c;
 }
