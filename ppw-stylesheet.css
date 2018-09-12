@@ -4,4 +4,11 @@ body {
 }
 div{
                 margin: 300px 100px 100px 200px
+button {
+                font: bold 25px sans-serif;
+                text-decoration: none;
+                background-color: #EEEEEE;
+                color: #7c7c7c;
+                padding: 10px 10px 10px 10px;
+                border: 1px solid grey
 }
