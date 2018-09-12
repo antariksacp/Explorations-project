@@ -18,4 +18,15 @@ button {
                 color: darkslategrey;
                 border: none;
                 border-bottom: 4px solid #56d08c;
+textarea {
+    width: 1000px;
+    height: 120px;
+    padding: 12px 0px 0px 20px;
+    box-sizing: border-box;
+    border: 0.5px solid #7c7c7c;
+    border-radius: 5px;
+    background-color: azure;
+    font-size: 14px;
+    resize: none;
+    
 }
