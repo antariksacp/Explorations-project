@@ -33,3 +33,7 @@ input[type=button] {
     width: auto;
     border: 0.5px solid #7c7c7c;
 }
+form {
+    font-size: 30px
+    
+}

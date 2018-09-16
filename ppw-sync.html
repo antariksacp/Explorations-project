@@ -4,6 +4,8 @@
         <link rel="stylesheet" type="text/css"
               href="ppw-stylesheet.css">
         <script src="p5.min.js"></script>
+        <script src="p5.dom.js"></script>
+        <script src="p5.min.js"></script>
     </head>
     <body>
         <div>
@@ -14,6 +16,9 @@
             <h1>Upload reference images</h1>
             <form>
                 <input type="text" placeholder="Search image"> <input type="button" value="Submit">
+            <form id="upload-form" action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" id="upload" name="upload" /> 
+                <input type="submit" value="Upload" />
             </form>
         </div>
     </body>
