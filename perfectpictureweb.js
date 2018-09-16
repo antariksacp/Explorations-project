@@ -2,7 +2,7 @@ var button;
 
 function setup(){
 	button = createButton("Syncronize");
-	button.position(200,425)
+	button.position(201,420)
 }
 
 function keyPressed(){
