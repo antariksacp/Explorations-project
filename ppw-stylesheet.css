@@ -2,13 +2,26 @@ body {
     background-color: #f2f2f2;
     font-family: arial, helvetica, sans-serif;
 }
-div {
+.whole {
     margin: 300px 100px 0px 200px
 }
+.token-wrapper {
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    overflow: auto;
+    color: #7c7c7c;
+    background: #fefefe;
+    font-size: 14px;
+    border: solid 2px #DFDFDF;
+    border-radius: 10px;
+}
+.token-input {
+    float: left;
+    position: relative;
+    top: 4px;
+}
 button {
-    font: bold 30px sans-serif;
-    text-decoration: none;
-    background-color: white;
     font: bold 35px sans-serif;
     text-align: left;
     background-color: #f2f2f2;
@@ -17,7 +30,7 @@ button {
     border-bottom: 4px solid #56d08c;
 }
 textarea {
-    padding: 12px 0px 0px 20px;
+    padding: 10px 10px 10px 10px;
     box-sizing: border-box;
     border: 0.5px solid #7c7c7c;
     border-radius: 5px;
@@ -37,6 +50,6 @@ input[type=button] {
     border: 0.5px solid #7c7c7c;
 }
 form {
-    font-size: 30px
+    font-size: 13px
     
 }

@@ -3,26 +3,31 @@
     <head>
         <link rel="stylesheet" type="text/css"
               href="ppw-stylesheet.css">
-        <script src="p5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="input-tokenizer-master/input_style.css" />
+        <script src="p5.js"></script>
         <script src="p5.dom.js"></script>
         <script src="p5.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+        <script type="text/javascript" src="input-tokenizer-master/tokenizer.js"></script>
+        <script src="ppw-sync.js"></script>
     </head>
     <body>
-        <div>
-            <p><button><a href="ppw-generate.html">Initializing <img src="sync.png" alt="none" width="30px" height="30px"></a></button></p>
-            <p><button>Initializing <img src="sync.png" alt="none" width="30px" height="30px"></button></p>
-        <h4>Please do not disconnect.</h4>
-        <h1>Refine your thoughts.</h1>
-        <textarea rows="10" cols="100">Enter useful keywords.</textarea>
-        <textarea rows="10" cols="100">Enter useful keywords.
-        </textarea>
-            <h1>Upload reference images</h1>
+        <div class="whole">
+            <p><button>Initializing<img src="sync.png" alt="none" width="30px" height="30px"></button></p>
+            <h4>Please do not disconnect.</h4>
+            <h1>Refine your thoughts.</h1>
+            <input id="my-input">
+        <script>
+            $('#my-input').tokenizer();
+        </script>
+        <br>
+        <h1>Upload reference images</h1>
             <form>
-                <input type="text" placeholder="Search image"> <input type="button" value="Submit">
-            <form id="upload-form" action="upload.php" method="post" enctype="multipart/form-data">
-                <input type="file" id="upload" name="upload" /> 
-                <input type="submit" value="Upload" />
+                <input type="file" name="img" multiple>
+                <input type="submit">
+                <p>Select multiple files.</p>
             </form>
+        <h4>Press [>] to Continue.</h4>
         </div>
     </body>
 </html>
