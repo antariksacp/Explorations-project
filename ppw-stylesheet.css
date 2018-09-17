@@ -5,22 +5,6 @@ body {
 .whole {
     margin: 300px 100px 0px 200px
 }
-.token-wrapper {
-    width: 350px;
-    height: 100px;
-    padding: 10px;
-    overflow: auto;
-    color: #7c7c7c;
-    background: #fefefe;
-    font-size: 14px;
-    border: solid 2px #DFDFDF;
-    border-radius: 10px;
-}
-.token-input {
-    float: left;
-    position: relative;
-    top: 4px;
-}
 button {
     font: bold 35px sans-serif;
     text-align: left;
